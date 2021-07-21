@@ -1,0 +1,322 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+font-family: 'Lato', sans-serif; 
+font-size: 1.6rem;
+background-color: #b6faff;
+
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.contenedoro{
+    margin: 0 auto 0 auto;
+    align-content: center;
+}
+h1{
+   font-size: 3.8rem; 
+}
+h2{
+    font-size: 3.4rem; 
+ }
+ 
+h3{
+    font-size: 3rem; 
+ }
+ h4{
+    font-size: 2.6rem; 
+ }
+.seccion{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}  
+
+.site-header.inicio{
+background-image: url(../img/log.jpg);
+background-position: center center;
+background-size:cover;
+height: 20vh;
+min-height: 20rem;
+}
+.site-header {
+    background-color: #000000d7;
+    padding: .5rem 0 .2rem 0;
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenido-header h1{
+    color: rgb(46, 3, 3);
+    padding: 2rem;
+
+}
+.logo{
+    width: 25rem;
+    height: 15rem;
+}
+.barra{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.navegacion a{
+ color: white;
+ text-decoration: none;
+ font-size: 1.8rem;
+ margin-right: 2rem;
+}
+
+.navegacion a:last-of-type{
+    margin: 0;
+}
+.navegacion a:hover{
+    color: yellow;
+}
+.barra p:hover{
+    color: yellow;
+}
+.iconos-con{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem;
+    align-content: center;
+}
+.iconos{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+    line-height: 2;
+
+}
+.iconos img{
+    height: 20rem;
+    width: 20rem;
+    padding: 1.8rem;
+}
+.til{
+    background-position: center center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 3rem; 
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    
+}
+.iconos a:hover{
+    color: yellow;
+}
+.principales{
+    text-align: center;
+}
+.bordes{
+    border-style: double ;
+    border-color: #000000;
+    border-width: 1PX;
+    background-color: #f5f5f56b;
+    padding: 50px;
+}
+.borde2{
+background-color: #F5F5F5;
+}
+.imagen-contacto{
+    margin-top: 1.5rem;
+    background-image: url(../img/gratuitos.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+}
+.contenido-contacto{
+    display: grid;
+    align-self: flex-end;
+    padding: 50px;
+}
+.contenido-contacto p{
+    font-size: 1.8rem;
+}
+.boton{
+    color: white;
+    background-color:#71b100 ;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+}
+.boton:hover{
+    background-color: rgb(141, 248, 19);
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+.centrar-texto {
+    text-align: center;
+}
+.d-block {
+    display: block!important;
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+.site-footer{
+    background-color: #f34242d7;
+    margin: 0;
+}
+.creado{
+    margin: 0;
+    color: white;
+}
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.principales a{
+    background-position: center center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 3rem; 
+    color: rgb(0, 0, 0);
+   
+}
+.principales a:hover{
+    color: blue;
+}
+.bideas{
+    border-style: double;
+    border-color: #c5fa06;
+    border-width: 15px;
+   background-image: url(../img/fondo3.jpg);
+   background-position: center center;
+   height: 20rem;
+   width: 100rem;
+   background-size:contain;
+   text-align: center;
+}
+.bideas p{
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.seccioncurso{
+    text-align: center;
+
+    width: 70rem;
+    border: double;
+margin-top: 5rem;
+margin-block: 5rem;
+background-image: url(../img/pizarra.jpg);
+background-position: center center;
+background-size: cover;
+
+}
+.pseccion{
+    display: flex;  
+}
+
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea {
+    height: 20rem;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.centrar-texto {
+    text-align: center;
+}
+.d-block {
+    display: block!important;
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+.boton {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.boton:hover {
+    cursor: pointer;
+}
+.boton-amarillo {
+    background-color: #E08709;
+}
+.boton-verde {
+    background-color: #71B100;
+}
+.borde{
+    border-style: double ;
+    border-color: #a02626;
+    border-width: 16PX;
+    background-color: #f5f5f56b;
+}
+.borde2{
+    border-style: double ;
+    border-color: #070707;
+    border-width: 10PX;
+    background-color: #f5f5f56b;
+    margin: 5rem;
+    padding: 5rem;
+}
+.fondoh{
+    background-color: #575757;
+}
+.somos{
+    text-align: center;
+    text-transform: uppercase;
+}.fondos{
+    background-image: url(../img/llamativo.jpg);
+}
